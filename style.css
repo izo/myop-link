@@ -49,6 +49,11 @@ h1 {
 	margin-bottom: 20px;
 }
 
+/* Paragraph */
+p {
+	text-align: left;
+	margin-bottom: 30px;
+}
 /* Unordered lists */
 ul {
 	list-style: none;
