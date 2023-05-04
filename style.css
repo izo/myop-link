@@ -1,0 +1,138 @@
+/* CSS Variables */
+:root {
+  --light-bg: #FCFBF8;
+  --dark-bg: #000000;
+  --light-text: #000000;
+  --dark-text: #F3F2ED;
+  --link-bg: #000000;
+  --dark-link-bg: #555555;
+  --light-link-text: #F3F2ED; /* Added variable for light mode link text */
+  --icon-color: #F3F2ED;
+  --system-dark-bg: #333333;
+  --system-dark-text: #f2efe6;
+}
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+	font-family: 'Cormorant', serif;
+	background-color: var(--light-bg);
+	color: var(--light-text);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+/* Container */
+.container {
+	text-align: center;
+	max-width: 500px;
+}
+
+/* Logo */
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+/* Heading */
+h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+
+/* Unordered lists */
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+/* Links list */
+.links {
+  margin-bottom: 20px;
+}
+
+.links li {
+  color: var(--light-text);
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--link-bg);
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--light-link-text);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.links a i {
+  color: var(--icon-color);
+  margin-right: 10px;
+}
+
+
+/* Animations */
+.links li.animate {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+
+/* Dark mode */
+body.dark {
+	background-color: var(--dark-bg);
+	color: var(--dark-text);
+}
+
+body.dark .links li {
+  background-color: var(--dark-link-bg);
+}
+
+body.dark .links a {
+  color: var(--dark-text);
+}
+
+/* Theme toggle button */
+.theme-toggle-container {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+#toggle-theme {
+	background: none;
+	border: none;
+	color: inherit;
+	font-size: 16px;
+	cursor: pointer;
+	padding: 4px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#toggle-theme:focus {
+	outline: none;
+}
+
+/* Media queries */
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--system-dark-bg);
+		color: var(--system-dark-text);
+	}
+}
