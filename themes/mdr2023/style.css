@@ -23,13 +23,13 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
 }
 
 /* Container */
 .container {
 	text-align: center;
-	max-width: 500px;
+	max-width: 60%;
+	margin: 20%;
 }
 
 /* Logo */
@@ -42,8 +42,10 @@ body {
 
 /* Heading */
 h1 {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	margin-bottom: 20px;
+	margin-top: 20px;
+
 }
 
 /* Paragraph */
@@ -52,26 +54,23 @@ p {
 	margin-bottom: 30px;
 }
 
-
-/* Glyph, by Harry Roberts */
+/* hr */
 
 hr {
 	overflow: visible; /* For IE */
 	padding: 0;
 	border: none;
-	border-top: medium double var(--dark);
+	border-top-width: medium;
 	color: var(--dark);
 	text-align: center;
 	margin-top: 30px;
-	margin-bottom: 10px;
-
+	margin-bottom: 30px;
+	border-top-style: solid;
 }
 hr:after {
-	content: "*";
 	display: inline-block;
 	position: relative;
 	top: -0.5em;
-	font-size: 1.5em;
 	padding: 0 0.25em;
 	background: var(--light);
 }
@@ -99,6 +98,15 @@ ul {
 	border-bottom: 2px solid var(--grey);
 }
 
+.links li:hover {
+	color: var(--dark);
+	background-color: var(--accent);
+}
+
+.links li a:hover {
+	color: var(--dark);
+}
+
 .links a {
 	text-decoration: none;
 	color: var(--light);
@@ -109,7 +117,6 @@ ul {
 }
 
 .links a i {
-	color: var(--icon-color);
 	margin-right: 10px;
 }
 
@@ -119,7 +126,6 @@ ul {
 	transform: scale(1.05);
 	transition: transform 0.3s;
 }
-
 
 /* Dark mode */
 body.dark {
