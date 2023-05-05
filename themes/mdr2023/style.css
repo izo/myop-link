@@ -170,3 +170,45 @@ body.dark .links a {
 		color: var(--grey);
 	}
 }
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .container {
+	max-width: 90%;
+	margin: 10%;
+  }
+
+  h1 {
+	font-size: 1.5rem;
+  }
+
+  p {
+	font-size: 0.9rem;
+  }
+
+  .theme-toggle-container {
+	bottom: 10px;
+	right: 10px;
+  }
+}
+
+/* Media query for larger mobile devices (e.g., iPhone Plus) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+	max-width: 80%;
+	margin: 10%;
+  }
+
+  h1 {
+	font-size: 1.75rem;
+  }
+
+  p {
+	font-size: 1rem;
+  }
+
+  .theme-toggle-container {
+	bottom: 15px;
+	right: 15px;
+  }
+}
