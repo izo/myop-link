@@ -3,10 +3,8 @@
 	--grey: rgba(98, 114, 164, 1);
 	--dark: rgba(68, 71, 90, 1);
 	--light: rgba(248, 248, 242, 1);
-	--accent:  rgba(80, 250, 123, 1)
-	--font-theme: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-	"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans;
-}
+	--accent:  rgba(80, 250, 123, 1);
+   --font-theme: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 /* Reset CSS */
 

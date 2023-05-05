@@ -4,8 +4,7 @@
 	--dark: #000000;
 	--light: #fffefe;
 	--accent: #9ae1ff;
-	--font-theme: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-	"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans;
+    --font-theme: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	
 }
 
