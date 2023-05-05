@@ -29,3 +29,4 @@ Ce projet est sous licence MIT.
 
 ## Sponsoring
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U621SO3)
