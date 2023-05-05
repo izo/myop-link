@@ -137,6 +137,15 @@ body.dark .links li {
 	background-color: var(--dark);
 }
 
+body.dark .links li:hover{
+	color: var(--dark);
+	background-color: var(--accent);
+}
+
+body.dark .links li a:hover {
+	color: var(--light);
+}
+
 body.dark .links a {
 	color: var(--grey);
 }
