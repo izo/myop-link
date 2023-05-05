@@ -29,7 +29,8 @@ body {
 /* Container */
 .container {
 	text-align: center;
-	max-width: 500px;
+	max-width: 60%;
+	margin: 20%;
 }
 
 /* Logo */
@@ -51,7 +52,6 @@ p {
 	text-align: left;
 	margin-bottom: 30px;
 }
-
 
 /* hr */
 
