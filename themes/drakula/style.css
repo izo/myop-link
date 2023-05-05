@@ -4,6 +4,8 @@
 	--dark: rgba(68, 71, 90, 1);
 	--light: rgba(248, 248, 242, 1);
 	--accent:  rgba(80, 250, 123, 1)
+	--font-theme: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+	"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans;
 }
 
 /* Reset CSS */
@@ -16,7 +18,7 @@
 
 /* Global styles */
 body {
-	font-family: 'Cormorant', serif;
+	font-family: var(--font-theme);
 	background-color: var(--light);
 	color: var(--dark);
 	display: flex;
