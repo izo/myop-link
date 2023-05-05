@@ -20,32 +20,23 @@ body {
 	font-family: var(--font-theme);
 	background-color: var(--light);
 	color: var(--dark);
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 /* Container */
 .container {
-	text-align: center;
 	max-width: 60%;
 	margin: 5%;
 }
 
-/* Logo */
-.logo {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
+/* Heading */
+header {
+	text-align: center;
 }
 
-/* Heading */
 h1 {
 	font-size: 2rem;
 	margin-bottom: 20px;
 	margin-top: 20px;
-
 }
 
 /* Paragraph */
@@ -62,7 +53,6 @@ hr {
 	border: none;
 	border-top-width: medium;
 	color: var(--dark);
-	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	border-top-style: solid;
@@ -89,11 +79,8 @@ ul {
 .links li {
 	color: var(--dark);
 	margin: 10px 0;
-	padding: 15px;
 	border-radius: 1px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	display: block;
 	background-color: var(--dark);
 	border-bottom: 2px solid var(--grey);
 }
@@ -108,16 +95,15 @@ ul {
 }
 
 .links a {
+	display: block;
+	padding: 15px;
 	text-decoration: none;
 	color: var(--light);
-	display: flex;
-	align-items: center;
-	width: 100%;
-	height: 100%;
 }
 
 .links a i {
 	margin-right: 10px;
+	vertical-align: middle;
 }
 
 
