@@ -20,7 +20,6 @@
 /* Global styles */
 body {
 	font-family: var(--font-theme);
-
 	background-color: var(--light);
 	color: var(--dark);
 	display: flex;
