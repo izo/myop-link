@@ -1,42 +1,33 @@
 # My Own Personal Link Tree
 
-My Own Personal Link Tree est un projet Web simple qui permet de créer et de personnaliser une page de liens personnels. Il est conçu pour être facilement modifiable et compatible avec les appareils mobiles.
+A simple, customizable, and responsive personal link tree website built using HTML5 and CSS3.
 
+## Features
+
+- Customizable design with CSS variables
+- Dark and light themes based on system preferences
+- Responsive layout for mobile and desktop devices
+- Footer with copyright date and link to the GitHub repository
 
 ## Demo
 
 [Default](https://izo.github.io/myop-link/)
 
+## Usage
 
-## Real life exemple
+1. Clone or download this repository
+2. Customize the `index.html` file with your personal information, links, and content
+3. Modify the design by editing the CSS variables in the `themes/default/style.css` file
+4. Deploy your website to a hosting service of your choice
 
-[mdr.cool](https://izo.github.io/myop-link/)
+## Customization
 
-
-## Caractéristiques
-
-- Personnalisation facile grâce aux variables CSS
-- Support du thème sombre en fonction des préférences du système
-- Mise en page responsive pour les appareils mobiles
-- Animation de survol pour les liens
-- Utilisation de Font Awesome pour les icônes
-
-## Installation
-
-1. Clonez ce dépôt ou téléchargez-le en tant qu'archive ZIP.
-2. Ouvrez le fichier `index.html` dans votre éditeur de code préféré.
-3. Modifiez le contenu et les liens selon vos préférences.
-4. Personnalisez les couleurs et les polices en modifiant les variables CSS dans le fichier `themes/default/style.css`.
-5. Enregistrez vos modifications et ouvrez `index.html` dans votre navigateur pour voir le résultat.
-
-## Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request si vous avez des suggestions d'amélioration ou si vous rencontrez des problèmes.
-
-## License
-
-Ce projet est sous licence MIT.
+You can easily customize the design of your personal link tree by updating the CSS variables in the `themes/default/style.css` file. You can also add your own styles, fonts, and animations.
 
 ## Sponsoring
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U621SO3)
+Support this project and [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U621SO3) buy me a coffee!
+
+## License
+
+This project is licensed under the MIT License.
