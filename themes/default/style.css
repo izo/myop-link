@@ -201,17 +201,22 @@ body {
   }
 }
 
-/* Footer */
+/* Sticky Footer */
 footer {
   position: fixed;
-  bottom: 0;
   left: 0;
-  right: 0;
-  padding: 1rem;
+  bottom: 0;
+  width: 100%;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.8);
-  font-size: 0.8rem;
+  padding: 1rem 0;
+  background-color: var(--light);
 }
+
+body.dark footer {
+  background-color: var(--dark);
+  color: var(--grey);
+}
+
 
 footer a {
   color: var(--dark);
