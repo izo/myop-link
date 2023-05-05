@@ -4,8 +4,7 @@
 	--dark: #000000;
 	--light: #fffefe;
 	--accent: #9ae1ff;
-    --font-theme: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-	
+    --font-theme: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
 }
 
 /* Reset CSS */
