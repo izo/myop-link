@@ -29,7 +29,7 @@ body {
 .container {
 	text-align: center;
 	max-width: 60%;
-	margin: 20%;
+	margin: 5%;
 }
 
 /* Logo */
@@ -203,9 +203,7 @@ body {
 
 /* Sticky Footer */
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+
   width: 100%;
   text-align: center;
   padding: 1rem 0;
