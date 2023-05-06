@@ -27,8 +27,11 @@ body {
 
 /* Container */
 .container {
-	text-align: center;
-	max-width: 500px;
+	max-width: 60%;
+	margin: 5%;
+	margin-left: auto;
+	margin-right: auto;
+
 }
 
 /* Logo */
