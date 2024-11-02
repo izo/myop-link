@@ -1,2 +1,37 @@
-**.DS_Store
-themes/mdr2023
+# .gitignore
+# Dépendances
+node_modules/
+.pnp/
+.pnp.js
+
+# Production
+dist/
+.output/
+
+# Astro
+.astro/
+
+# Environnement
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Caches
+.cache/
+.temp/
+.eslintcache
