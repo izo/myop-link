@@ -1,33 +1,105 @@
-# My Own Personal Link Tree
+# README.md
+# 😎 MDR.cool
 
-A simple, customizable, and responsive personal link tree website built using HTML5 and CSS3.
+Un clone de Linktree minimaliste et élégant pour partager du contenu humoristique, construit avec Astro.js et Tailwind CSS.
 
-## Features
+## 🚀 Technologies utilisées
 
-- Customizable design with CSS variables
-- Dark and light themes based on system preferences
-- Responsive layout for mobile and desktop devices
-- Footer with copyright date and link to the GitHub repository
+- [Astro.js](https://astro.build) - Framework web ultra-performant
+- [Tailwind CSS](https://tailwindcss.com) - Framework CSS utilitaire
+- Font Awesome - Pour les icônes de réseaux sociaux
 
-## Demo
+## 🛠️ Installation
 
-[Default](https://izo.github.io/myop-link/)
+1. Clonez le repository
+```bash
+git clone https://github.com/votre-username/mdr.cool.git
+cd mdr.cool
+```
 
-## Usage
+2. Installez les dépendances
+```bash
+npm install
+```
 
-1. Clone or download this repository
-2. Customize the `index.html` file with your personal information, links, and content
-3. Modify the design by editing the CSS variables in the `themes/default/style.css` file
-4. Deploy your website to a hosting service of your choice
+3. Lancez le serveur de développement
+```bash
+npm run dev
+```
 
-## Customization
+Le site sera disponible sur `http://localhost:4321`
 
-You can easily customize the design of your personal link tree by updating the CSS variables in the `themes/default/style.css` file. You can also add your own styles, fonts, and animations.
+## 📦 Construction
 
-## Sponsoring
+Pour construire le site pour la production :
+```bash
+npm run build
+```
 
-Support this project and [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U6U621SO3) buy me a coffee!
+Pour prévisualiser la version de production :
+```bash
+npm run preview
+```
 
-## License
+## 📝 Personnalisation
 
-This project is licensed under the MIT License.
+### Liens
+Modifiez le fichier `src/pages/index.astro` pour ajouter ou modifier les liens :
+```js
+const links = [
+  {
+	title: "Votre Titre",
+	href: "https://votre-lien.com"
+  },
+  // Ajoutez d'autres liens...
+];
+```
+
+### Réseaux sociaux
+Modifiez la section `socials` dans `src/pages/index.astro` :
+```js
+const socials = [
+  {
+	icon: "twitter",
+	href: "https://twitter.com/votre-compte"
+  },
+  // Ajoutez d'autres réseaux sociaux...
+];
+```
+
+### Style
+Le thème peut être personnalisé dans `tailwind.config.cjs` :
+```js
+theme: {
+  extend: {
+	colors: {
+	  primary: '#votre-couleur',
+	  secondary: '#votre-couleur'
+	}
+  }
+}
+```
+
+## 📱 Fonctionnalités
+
+- ✨ Design responsive
+- 🎨 Thème sombre élégant
+- 🔄 Animations au survol
+- 📱 Icônes de réseaux sociaux
+- 🖼️ Image de profil personnalisable
+- 🚀 Performance optimisée
+- 🔍 SEO-friendly
+
+## 📄 Licence
+
+MIT License - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+
+## 👤 Auteur
+
+Votre nom
+- Twitter: [@votre-twitter](https://twitter.com/votre-twitter)
+- GitHub: [@votre-github](https://github.com/votre-github)
+
+## 💖 Support
+
+Donnez une ⭐️ si ce projet vous a aidé !
