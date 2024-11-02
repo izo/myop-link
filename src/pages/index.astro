@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Link from '../components/Link.astro';
+import SocialIcon from '../components/SocialIcon.astro';
+
+const links = [
+  {
+	title: "Les meilleurs memes 😂",
+	href: "https://mdr.cool/memes"
+  },
+  {
+	title: "Collection de GIFs marrants",
+	href: "https://mdr.cool/gifs"
+  },
+  {
+	title: "Blagues du jour 🤣",
+	href: "https://mdr.cool/blagues"
+  },
+  {
+	title: "TikToks drôles",
+	href: "https://mdr.cool/tiktoks"
+  }
+];
+
+const socials = [
+  {
+	icon: "twitter",
+	href: "https://twitter.com/mdrcool"
+  },
+  {
+	icon: "tiktok",
+	href: "https://tiktok.com/@mdrcool"
+  },
+  {
+	icon: "instagram",
+	href: "https://instagram.com/mdr.cool"
+  }
+];
+---
+
+<Layout title="MDR Cool - Les liens les plus drôles du web">
+  <main class="max-w-2xl mx-auto px-4 py-16">
+	<div class="flex flex-col items-center mb-8">
+	  <img
+		src="/profile.jpg"
+		alt="MDR Cool Logo"
+		class="w-24 h-24 rounded-full mb-4 border-2 border-white/20"
+	  />
+	  <h1 class="text-3xl font-bold mb-2">MDR.cool 😎</h1>
+	  <p class="text-gray-300 text-center mb-8">
+		Les liens les plus drôles du web, sélectionnés avec amour 😂
+	  </p>
+	</div>
+
+	<div class="mb-8">
+	  {links.map((link) => <Link {...link} />)}
+	</div>
+
+	<div class="flex justify-center space-x-6">
+	  {socials.map((social) => <SocialIcon {...social} />)}
+	</div>
+  </main>
+</Layout>

@@ -1,0 +1,11 @@
+---
+const { href, icon } = Astro.props;
+---
+<a
+  href={href}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="text-white hover:text-gray-300 transition-colors duration-300 hover:scale-110 transform"
+>
+  <i class={`fab fa-${icon} text-2xl`}></i>
+</a>
