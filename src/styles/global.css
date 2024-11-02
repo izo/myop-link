@@ -1,0 +1,181 @@
+/* Base et variables */
+:root {
+  --couleur-ivoire: #fcfbf8;
+  --couleur-velin: #f3f2ed;
+  --couleur-pur-black: #000000;
+  --couleur-gray-300: rgba(209, 213, 219, 1);
+  font-size: 16px;
+}
+
+/* Reset et styles de base */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--couleur-pur-black);
+  color: var(--couleur-ivoire);
+  overflow-x: hidden;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "kessler-superdisplayregular";
+  src: url("/fonts/kessler/kesslersuperdisplayweb-regular.woff2") format("woff2"),
+	   url("/fonts/kessler/kesslersuperdisplayweb-regular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "kessler-textregular";
+  src: url("/fonts/kessler/kesslertextweb-regular.woff2") format("woff2"),
+	   url("/fonts/kessler/kesslertextweb-regular.woff") format("woff");
+  font-display: swap;
+}
+
+/* Layout principal */
+.max-w-2xl {
+  max-width: 42rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* Header et Logo */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.space-x-6 > * + * {
+  margin-left: 1.5rem;
+}
+
+/* Image styles */
+.w-24 {
+  width: 6rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-white\/20 {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Typography */
+h1 {
+  font-family: "kessler-superdisplayregular", serif;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: var(--couleur-ivoire);
+}
+
+p {
+  font-family: "kessler-textregular", serif;
+  text-align: center;
+  color: var(--couleur-gray-300);
+}
+
+/* Link Component Styles */
+.link-card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.link-card:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Social Icons */
+.social-icon {
+  color: var(--couleur-ivoire);
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.social-icon:hover {
+  opacity: 1;
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+  h1 {
+	font-size: 2.25rem;
+	line-height: 2.5rem;
+  }
+
+  .px-4 {
+	padding-left: 2rem;
+	padding-right: 2rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+	opacity: 0;
+	transform: translateY(10px);
+  }
+  to {
+	opacity: 1;
+	transform: translateY(0);
+  }
+}
+
+main {
+  animation: fadeIn 0.5s ease-out;
+}

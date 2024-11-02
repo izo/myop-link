@@ -1,0 +1,81 @@
+Web
+
+1. The User is authorized to use the Font and display online text onto
+a Website, whose domain name (URL) is specified in the Invoice, as
+well as for an unlimited number of sub-domains related to the domain
+name specified in the Invoice, enabling the static display of the Font
+exclusively on screen, whatever the access device used (personal
+computer, smartphone, tablet, etc.). If a brand is identified in the
+Invoice, the domains must be substantially dedicated to the licensed
+brand, and the brand must be prominently displayed and identified on
+the domains (or, if there are multiple brands, they must all be owned
+by the User, and the Font may be used only for the licensed brand(s)).
+The User may not install the Font in any manner whatsoever.
+“Install” means making the font locally available to applications
+on a device.
+
+2. Addendum to Article 3.6 “Embed”: The User may embed the Font in
+a website to render text in HTML pages via the @font-face CSS command,
+and may copy the Font in databases produced by the User. The
+reproduction of the Font is authorized in this circumstance only to
+the extent that it is necessary to the use of the Font and its
+execution to generate websites pages using the Font, and the
+consultation and editing of text by website visitors of said website
+pages using the Font.
+
+3. Addendum to Article 3.2 “Copy”: For the exclusive purpose of
+previewing certain files, the User is permitted to transfer a copy of
+the Font used for previewing the relevant file to web developers and
+web agencies, on the condition that there be no active use of the Font
+(including but not limited to text formatting, editing, or
+corrections). In the event active use of the Font is desired, such
+service providers are required to purchase their own license. The User
+is obligated to inform any such service provider about the content and
+restrictions of this Agreement, including the prohibition against
+reproducing, distributing, providing to the public, disseminating,
+executing or more generally exploiting in any way, free or at cost,
+the Font. Copies of the Font shall be deleted immediately after
+performing the service. In the event the User is a service provider
+and licenses the Font for its own use, the license does not cover the
+use of the Font for any of the User’s customers, which must acquire
+their own license. The User is permitted to transfer a copy of the
+Font to a provider supplying remote web-based storage (such as remote
+servers, cloud, and other similar services) to the User, as part of a
+web use requiring the remote execution of the Font, it being
+understood that the Font format may not be modified, and that only the
+copy of the executable version of the Font, as provided by Production
+Type, is authorized. The Font must not be supplied in a format that
+enables extraction. If the correct functioning of the website created
+by the User requires the storage of the Font in a remote storage space
+in a format that enables the extraction, editing, alteration,
+enrichment, or modification of the Font by a third party, the User is
+required to inform the provider of the need to prevent any extraction
+or representation of the Font, and all reproductions other than those
+strictly necessary for the operation of the website. The User is
+further required to prevent the unauthorized copy or extraction of the
+Font, and in particular the linking to the Font from unauthorized
+websites and domain names outside of those specified in the Invoice.
+To prevent unauthorized use of the Font, such protection measures
+include protection by Cross-Origin Resource Tracking (CORS) headers,
+and the use of a .htaccess file.
+
+4. The User is not authorized to print elements displayed on screen
+containing the Font. The use of the Font is authorized for static text
+only, not dynamic. Use for dynamic text editable by a third party or
+the displaying and printing of variable data is not part of this
+license. The dynamic display of the Font, and the dynamic rasterizing
+and rendering of the Font as bitmap or vector images, or the dynamic
+embedding of the Font in electronic documents, is not authorized
+either. To further clarify, the use of the Font to generate static
+documents (e.g., variable data printing, automatic PDF generation, or
+print-on-demand products) is not authorized. Use in banners, pop-up
+advertising, email newsletters, and HTML5 ads on third parties web
+servers and websites is not authorized.
+
+5. The User must own and control the domain name on which the Font
+will be used. The User shall indemnify Production Type against all
+representations or reproductions of the Font outside of the license,
+particularly in the form of a copy, extraction, or direct links. The
+User acknowledges that it is solely liable in the case of a copy,
+representation, reproduction, or extraction of the Font, particularly
+outside the domain name specified in the Invoice.

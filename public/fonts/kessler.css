@@ -1,0 +1,62 @@
+/*
+    ____                 __           __  _                ______               
+   / __ \_________  ____/ /_  _______/ /_(_)___  ____     /_  __/_  ______  ___ 
+  / /_/ / ___/ __ \/ __  / / / / ___/ __/ / __ \/ __ \     / / / / / / __ \/ _ \
+ / ____/ /  / /_/ / /_/ / /_/ / /__/ /_/ / /_/ / / / /    / / / /_/ / /_/ /  __/
+/_/   /_/   \____/\__,_/\__,_/\___/\__/_/\____/_/ /_/    /_/  \__, / .___/\___/ 
+                                                             /____/_/           
+
+        This font software is the property of Production Type.
+        Your right to access and use this font is subject to the
+        applicable License Agreement that exists between you and 
+        Production Type. If no such agreement exists, you may not
+        access or use this font for any purpose. This font may 
+        only be hosted at the locations specified in the applicable
+        License Agreement, and only for the purposes expressly set
+        forth therein. You may not copy, modify, convert, create 
+        derivative works from or distribute this font in any way,
+        or make it accessible to any third party, without first
+        obtaining the written permission of Production Type. For
+        more information, please visit us at www.productiontype.com
+*/
+
+@font-face {
+  font-family: 'kessler-textregular';
+  src:
+    url('fonts/kesslertextweb-regular.woff2') format('woff2'),
+    url('fonts/kesslertextweb-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'kessler-superdisplayregular';
+  src:
+    url('fonts/kesslersuperdisplayweb-regular.woff2') format('woff2'),
+    url('fonts/kesslersuperdisplayweb-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'kessler-superdisplayitalic';
+  src:
+    url('fonts/kesslersuperdisplayweb-italic.woff2') format('woff2'),
+    url('fonts/kesslersuperdisplayweb-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'kessler-textitalic';
+  src:
+    url('fonts/kesslertextweb-italic.woff2') format('woff2'),
+    url('fonts/kesslertextweb-italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'kessler-displayregular';
+  src:
+    url('fonts/kesslerdisplayweb-regular.woff2') format('woff2'),
+    url('fonts/kesslerdisplayweb-regular.woff') format('woff');
+
+  @font-face {
+    font-family: 'kessler-textregular';
+    src:
+      url('fonts/kesslertextweb-regular.woff2') format('woff2'),
+      url('fonts/kesslertextweb-regular.woff') format('woff');
+  }
